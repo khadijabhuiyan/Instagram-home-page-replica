@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile Page Replica</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/insta-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="hero" id="hero">
+        <div class="hero-container">
+            <div class="side-bar">
+                <div class="insta-logo">
+                    <img src="./img/instagram.png" alt="">
+                </div>
+                <div class="toggle-button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu-wrapper">
+                    <ul>
+                        <li><a href="#">
+                            <i class="fa-regular fa-house"></i>
+                            <span>Home</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Search</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-regular fa-compass"></i>
+                            <span>Explore</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./img/reel.png" alt="">
+                            <span>Reels</span>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./img/chat.png" alt="">
+                            <span>Messages</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>Notifications</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-regular fa-square-plus"></i>
+                            <span>Create</span>
+                        </a></li>
+                        <li><a href="#" class="profile">
+                            <div class="img-holder">
+                                <img src="./img/insta-profile.jpg" alt="">
+                            </div>
+                            <span>Profile</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>More</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                            <span>Also from Meta</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+           <div class="profile-part">
+  <div class="profile-wrapper">
+    <!-- Profile Info -->
+    <div class="profile-info">
+      <div class="profile-picture">
+        <img src="./img/insta-profile.jpg" alt="">
+      </div>
+
+      <div class="profile-details">
+        <p class="user-name">
+          <span>Khadija_bhuiyan</span>
+          <img src="./img/gear.png" alt="">
+        </p>
+
+        <div class="full-name">
+          <span>Khadija Bhuiyan</span>
+        </div>
+
+        <div class="activities">
+          <span>15 posts</span>
+          <span>125 followers</span>
+          <span>52 following</span>
+        </div>
+
+        <div class="bio">
+          <p>Life in progress ✨
+          </p>
+        </div>
+
+        <div class="thread-id">
+          <p>
+            <img src="./img/threads.png" alt="">
+            <span>khadija_bhuiyan</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Buttons -->
+    <div class="profile-buttons-holder">
+      <button class="edit-btn">Edit Profile</button>
+      <button class="archive-btn">View Archive</button>
+    </div>
+
+    <!-- Highlights -->
+    <div class="highlight-container">
+      <div class="read-circle1">
+        <div class="img-holder">
+          <img src="./img/highlight.jpg" alt="">
+        </div>
+        <p class="title">Highlights</p>
+      </div>
+
+      <div class="new-wrapper">
+        <div class="read-circle2">
+          <div class="icon-holder">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <p class="new">New</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- File Grid Section -->
+  <div class="file-grid-section">
+    <div class="grid-buttons">
+        <div class="icon-holder" data-section="posts">
+            <i class="fa-solid fa-table-cells"></i>
+        </div>
+        <div class="img-holder" data-section="reels">
+            <img src="./img/reel.png" alt="">
+        </div>
+        <div class="icon-holder" data-section="saved">
+            <i class="fa-regular fa-bookmark"></i>
+        </div>
+        <div class="icon-holder" data-section="tagged">
+            <i class="fa-solid fa-user-tag"></i>
+        </div>
+    </div>
+
+    <div class="uploaded-file-container" id="posts">
+        <div class="img-holder">
+            <img src="./img/post.jpg" alt="">
+        </div>
+        <div class="video-holder">
+            <img src="./img/reel.png" alt="">
+            <video src="" controls></video>
+        </div>
+    </div>
+    <div class="reels-section" id="reels" style="display: none;">
+        <div class="video-holder">
+            <video src="" controls></video>
+        </div>
+    </div>
+    <div class="saved-section" id="saved" style="display: none;">
+        <div class="img-holder">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="tagged-section" id="tagged" style="display: none;">
+        <div class="img-holder">
+            <img src="" alt="">
+        </div>
+    </div>
+  </div>
+        </div>
+        </div>
+    </main>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
